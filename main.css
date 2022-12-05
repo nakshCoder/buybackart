@@ -547,6 +547,10 @@ ul.infoGraphic li:hover .coverWrap .numberCover {
   padding: 50px 0px;
 }
 
+.footer-heading {
+  margin-bottom: 40px;
+}
+
 .footer-info {
   display: flex;
   flex-direction: column;
@@ -680,6 +684,10 @@ textarea {
     align-items: center;
     flex-direction: column;
   }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -727,6 +735,10 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
+
+  .footer-heading {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -736,9 +748,17 @@ textarea {
     width: 100%;
   }
 
+  .footer-catagories {
+    margin-top: 30px;
+  }
+
   .first-footer {
     margin-top: 50px;
     width: 80%;
+  }
+
+  .footer-heading {
+    font-size: 1.2rem;
   }
 
   .our-social-handles {
@@ -763,7 +783,6 @@ textarea {
   }
 
   .contact-icon i {
-    /* margin-left: 20px; */
     font-size: 2rem !important;
   }
 }
@@ -807,6 +826,9 @@ textarea {
   }
   .testimonial4_slide p {
     font-size: 0.9rem;
+  }
+  .footer-heading {
+    font-size: 1rem;
   }
 }
 
@@ -925,7 +947,7 @@ label {
   resize: vertical;
 }
 .textarea-form {
-  min-height: 180px;
+  min-height: 160px;
 }
 
 select {
@@ -982,5 +1004,9 @@ input[type="submit"]:focus {
     width: 50%;
     padding: 1em;
     float: left;
+  }
+
+  .map {
+    margin-top: 50px !important;
   }
 }
