@@ -545,6 +545,16 @@ ul.infoGraphic li:hover .coverWrap .numberCover {
   padding: 50px 0px;
 }
 
+.categories-name {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
+.categories-name select {
+  padding: 5px 50px;
+  outline: none;
+  border: 1.2px solid lightgray;
+}
 .footer-heading {
   margin-bottom: 40px;
 }
@@ -893,7 +903,7 @@ textarea {
 .categories-submit {
   display: flex;
   justify-content: baseline;
-  padding: 5px 25px;
+  padding: 5px 50px;
   margin-top: -10px;
 }
 
