@@ -1008,10 +1008,10 @@ input[type="submit"]:focus {
     display: block;
     clear: both;
   }
-  .column {
+  /* .column {
     width: 60%;
     margin: auto;
     padding: 1em;
     float: left;
-  }
+  } */
 }
