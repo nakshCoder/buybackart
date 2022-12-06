@@ -994,6 +994,10 @@ input[type="submit"]:focus {
   padding: 10px 20px;
 }
 
+.row {
+  justify-content: space-between;
+}
+
 .form-map {
   margin-top: 40px !important;
 }
@@ -1005,7 +1009,8 @@ input[type="submit"]:focus {
     clear: both;
   }
   .column {
-    width: 50%;
+    width: 60%;
+    margin: auto;
     padding: 1em;
     float: left;
   }
